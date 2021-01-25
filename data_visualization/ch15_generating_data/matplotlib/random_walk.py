@@ -5,10 +5,10 @@ class RandomWalk():
 
     def __init__(self, num_points = 5000):
         """Initialize attributes of a walk."""
-        self.num_points = num_points;
+        self.num_points = num_points
 
-        self.x_value = [0];
-        self.y_value = [0];
+        self.x_value = [0]
+        self.y_value = [0]
 
     def fill_walk(self):
         """Calculate all the points in the walk"""
